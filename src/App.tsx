@@ -21,7 +21,6 @@ function App() {
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Enter the binary number"
-          maxLength={8}
           value={text}
           onChange={ev => setText(ev.target.value)}
         />
